@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">  
+  <link rel="shortcut icon" href="../../assets/icons/momentum-icon.png" type="image/x-icon">
+  <title>momentum</title>
+</head>
+<body>
+  <header>
+    <div class="first-line">
+      <div class="quote_text">
+        <h3>
+          <span class="quote"></span>
+        </h3>
+      </div>
+      <button id="quote_id" class="btn_change_quote">›</button>
+    </div>
+  </header>
+  <section class="main">
+  <date class="date"></date>
+    <div class="wallpaper">
+      <div class="time-wrapper">
+        <time class="time"></time>
+      </div>
+      <div class="wallpaper_btn">
+        <button class="btn_change_bg">›</button>
+      </div>
+    </div>
+  
+    <h1>
+      <span class="greeting"></span>
+      <input class="name" type="text" onfocus="this.value=''">
+    </h1>
+  
+    <h2>
+      <p>главная цель сегодня:</p>
+      <input class="focus" type="text" onfocus="this.value=''">
+    </h2>
+  </section>
+    <section class="show_weather">
+      <div class="weather_first-line">
+        <div class="weather-icon"></div>
+          <div class="weaher-descrription_first-line">
+            <div class="line1">
+              <div class="temperature"></div>
+              <div class="weather-description"></div>
+            </div>
+            <div class="line2">
+              <div class="humidity"></div>
+              <div class="wind-speed"></div>
+            </div>
+          </div>
+        </div>
+        <input id="city" class="city" type="text" onfocus="this.value=''">
+      </div>
+    </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
